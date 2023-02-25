@@ -1,6 +1,7 @@
 .secao-horizontal .cartao {
     display: grid;
     grid-template-columns: auto 1fr auto;
+    column-gap: 1.25rem;
 }
 
 .secao-horizontal .cartao__imagem {
@@ -14,6 +15,7 @@
 }
 
 .secao-horizontal .cartao__titulo {
+    align-self: end;
     /* Maneira mais verbosa/trabalhosa de posicionar um elemento com Grid */
     grid-column-start: 2;
     grid-column-end: 3;
@@ -54,3 +56,7 @@
     */
 }
 
+.secao-vertical .cartao {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
