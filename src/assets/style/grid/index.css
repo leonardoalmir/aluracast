@@ -12,7 +12,7 @@ body {
 
 .menu-lateral {
     grid-area: aside;
-}=-
+}
 
 .principal {
     grid-area: main;
